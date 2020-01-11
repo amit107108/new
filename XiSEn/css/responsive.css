@@ -1,0 +1,86 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .main-menu ul li {
+        display: inline-block;
+        margin: 0 10px;
+        position: relative;
+    }
+    .brand-slider button.owl-next {
+        right: -35px;
+    }
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .slider-text {
+        padding-top: 90px;
+        padding-bottom: 30px;
+    }
+    .header-area {
+    padding-top: 12px;
+}
+.platform-text {
+    padding-bottom: 30px;
+}
+.clinet-img {
+    padding-bottom: 30px;
+}
+#email-section h2 {
+    font-size: 36px;
+}
+#email-section button {
+    position: absolute;
+}
+#email-section input[type="text"] {
+    width: 80%;
+}
+#email-section button {
+    padding: 0 10px;
+}
+a.go-top {
+display: none!important;
+}
+
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .slider-text {
+        padding-top: 90px;
+        padding-bottom: 30px;
+    }
+    .header-area {
+    padding-top: 12px;
+}
+    .platform-text {
+        padding-bottom: 30px;
+    }
+    #email-section input[type="text"] {
+        width: 100%;
+    }
+    #email-section button {
+        padding: 0 30px;
+        margin: 10px 0;
+    }
+    a.go-top {
+    display: none!important;
+}
+
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+
+}
